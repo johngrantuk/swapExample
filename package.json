@@ -1,0 +1,15 @@
+{
+  "name": "hummingbot-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@balancer-labs/sor": "^0.3.3",
+    "@types/node": "^14.11.2",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.14",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
