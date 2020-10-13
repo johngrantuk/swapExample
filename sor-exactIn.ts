@@ -49,6 +49,9 @@ const proxyAddr = '0x4e67bf5bD28Dd4b570FBAFe11D0633eCbA2754Ec';
 
   const expectedOut = sor.calcTotalOutput(swapsFormatted, poolData);
 
+  console.log(expectedOut.toString())
+
+  /*
   const provider = new ethers.providers.JsonRpcProvider(
       `https://kovan.infura.io/v3/${process.env.INFURA}` // If running this example make sure you have a .env file saved in root DIR with INFURA=your_key
   );
@@ -92,4 +95,5 @@ const proxyAddr = '0x4e67bf5bD28Dd4b570FBAFe11D0633eCbA2754Ec';
   // Example hash: 0x4de4e521da85fd88f7cef2adee76a08cbfcfad9651197fe17e90ec00b1e544fa
 
   console.log('Check Balances');
+  */
 })()
